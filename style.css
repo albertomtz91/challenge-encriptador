@@ -6,6 +6,11 @@
     line-height: 150%;
 }
 
+/*body{
+    background-image: url(/images/ENCRIPTADOR.jpg);
+    background-repeat: no-repeat;
+}*/
+
 .logo{
     padding-top: 10px;
     margin-left: 10px;
@@ -23,6 +28,8 @@ main{
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
+    /*background-color: transparent;
+    border-color: #495057;*/
 }
 
 ::placeholder{ color: #0A3871;}    

@@ -1,5 +1,5 @@
 const textArea = document.querySelector(".text-area");
-const mensaje = document.querySelector(".mensaje");
+const mensaje  = document.querySelector(".mensaje");
 
 //La letra "e" es convertida para "enter"
 //La letra "i" es convertida para "imes"
@@ -55,3 +55,22 @@ function desencriptar(stringDEsncriptada){
     return stringDEsncriptada
 }
 
+function btncopiar(stringtextcopy){
+
+    stringtextcopy = mensaje.value
+    textArea.value=stringtextcopy
+    mensaje.value="";
+
+
+    return stringtextcopy
+}
+
+function validatexto(stringtext){
+    let textVacio=mensaje.length
+    if(textVacio !=0){
+        stringtext=mensaje.value
+    }else{
+        alert("Debes ingresar algún texto");
+    }
+    return stringtext
+}
